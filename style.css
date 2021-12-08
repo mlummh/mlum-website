@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 
-div {
+body > div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14,4 +14,15 @@ div {
   text-align: center;
   color: #ffffff;
   font-family: verdana;
+}
+
+#players {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#players > img {
+  margin: 24px;
+  height: 32px;
 }
