@@ -16,7 +16,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mlum.rocks">
     <meta property="og:title" content="mlum">
-    <meta name="keywords" content="Minecraft,Minehut,mlum,Prison Escape,Prison">
     <meta name="description" content="Welcome to the mlum website. We are a prison escape server hosted at Minehut - join at mlum.rocks or mlum.minehut.gg.">
     <meta property="og:description" content="Welcome to the mlum website. We are a prison escape server hosted at Minehut - join at mlum.rocks or mlum.minehut.gg.">
     <meta name="theme-color" content="#ff8800">
@@ -24,12 +23,21 @@
     <link rel="icon" type="image/png" href="favicon.png">
   </head>
   <body>
-    <div>
-      <img src="favicon.png">
-      <h1>IP: mlum.rocks</h1>
-      <h3>There are <span id="playerCount">0</span> players online.</h3>
-      <div id="players"></div>
-    </div>
+    <section id="section1">
+      <div>
+        <img src="favicon.png" height="256" width="256">
+        <h1>IP: mlum.rocks</h1>
+        <h3><a href="https://mlum.fandom.com">Wiki</a> - <a href="https://discord.gg/zPsUJJ2Nqp">Discord</a></h3>
+        <a href="#section2"><img src="arrowdown.svg" height="64" width="64"></a>
+      </div>
+    </section>
+    <section id="section2">
+      <div>
+        <h1>There are <span id="playerCount">0</span> players online.</h1>
+        <div id="players"></div>
+        <a href="#section1"><img src="arrowup.svg" height="64" width="64"></a>
+      </div>
+    </section>
     <script src="main.js"></script>
   </body>
 </html>
