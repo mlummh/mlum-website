@@ -47,6 +47,15 @@ section {
   z-index: 1;
 }
 
+#section3 {
+  background-image: url('background3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  top: 200%;
+  z-index: 0;
+}
+
 section > div {
   position: absolute;
   top: 50%;
