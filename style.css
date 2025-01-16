@@ -25,16 +25,16 @@ a {
 }
 
 a:hover {
-  color: #ffa500;
+  text-decoration: underline;
 }
 
 a img {
   filter: none; /* remove any possible conflicting filters*/
 }
 
- /* USE https://angel-rs.github.io/css-color-filter-generator for a diffrent color */
 a:hover img {
   filter: brightness(0) saturate(100%) invert(61%) sepia(82%) saturate(1545%) hue-rotate(0deg) brightness(102%) contrast(111%);
+ /* USE https://angel-rs.github.io/css-color-filter-generator for a diffrent color */
 }
 
 section {
@@ -61,7 +61,7 @@ section {
 }
 
 #section3 {
-  background-image: url('s15_background3');
+  background-image: url('s15_background3.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
