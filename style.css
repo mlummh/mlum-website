@@ -44,7 +44,7 @@ section {
 }
 
 #section1 {
-  background-image: url('background.webp');
+  background-image: url('s15_background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -52,7 +52,7 @@ section {
 }
 
 #section2 {
-  background-image: url('background2.webp');
+  background-image: url('s15_background2.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -61,7 +61,7 @@ section {
 }
 
 #section3 {
-  background-image: url('background3.webp');
+  background-image: url('s15_background3');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
