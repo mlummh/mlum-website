@@ -32,9 +32,9 @@ a img {
   filter: none; /* remove any possible conflicting filters*/
 }
 
+ /* USE https://angel-rs.github.io/css-color-filter-generator for a diffrent color */
 a:hover img {
   filter: brightness(0) saturate(100%) invert(61%) sepia(82%) saturate(1545%) hue-rotate(0deg) brightness(102%) contrast(111%);
- /* USE https://angel-rs.github.io/css-color-filter-generator for a diffrent color */
 }
 
 section {
