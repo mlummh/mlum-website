@@ -44,7 +44,7 @@ section {
 }
 
 #section1 {
-  background-image: url('s15_background.png');
+  background-image: url('s15_background3.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -61,7 +61,7 @@ section {
 }
 
 #section3 {
-  background-image: url('s15_background3.png');
+  background-image: url('s15_background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
